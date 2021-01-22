@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="" method="post" id="form1">
+    <input type="text" pattern="[^\s]+" placeholder="что угодно...">
+    <span>Нажмите кнопку чтобы, <br>Создать уникальную ссылку</span>
+    <button type="submit">Создать</button>
+</form>
+
+<div id="result"></div>
+
+<br><br><br>
+<form action="" method="post" id="form2">
+    <input type="text" pattern="^short\.ly/[a-z]{1,}" placeholder="short.ly/....">
+    <span>Нажмите кнопку чтобы, <br>Создать уникальную ссылку</span>
+    <button type="submit">Создать</button>
+</form>
+<div id="res"></div>
+<script src="script.js"></script>
+</body>
+</html>
